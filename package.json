@@ -1,28 +1,14 @@
 {
-  "name": "Simple-Node-Project",
+  "name": "sampleapp",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Goodiec/Simple-Node-Project.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Goodiec/Simple-Node-Project/issues"
-  },
-  "homepage": "https://github.com/Goodiec/Simple-Node-Project#readme",
   "dependencies": {
-    "express": "^4.17.1"
-  },
-  "devDependencies": {
-    "mocha": "^8.3.1",
-    "should": "^13.2.3",
-    "supertest": "^6.1.3"
+    "express": "^4.18.1"
   }
 }

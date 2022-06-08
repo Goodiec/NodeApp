@@ -1,8 +1,5 @@
-var express = require('express');
-var app = express();
+const express = require('express');
+const app = express();
 
-app.get('/',function(req,res) {
-  res.send("Hello World");
-});
-
-app.listen(4000);
+app.get('/', (req, res) => res.send('Hello World'));
+app.listen(4000, () => console.log('Server ready'));
