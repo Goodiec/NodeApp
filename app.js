@@ -1,5 +1,9 @@
 const express = require('express');
 const app = express();
 
-app.get('/', (req, res) => res.send('Hello World'));
-app.listen(4000, () => console.log('Server ready'));
+port = process.env.PORT || 8000;
+app.get('/', (req, res) => {
+  res.send("Hello World!");
+});
+
+app.listen(port, () => console.log('App is running'));
